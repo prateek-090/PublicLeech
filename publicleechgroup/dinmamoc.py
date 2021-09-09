@@ -20,57 +20,57 @@ from .get_cfg import get_config
 class Commandi:
     LEECH = get_config(
         "COMMANDI_LEECH",
-        "leech"
+        "leech@manjirosano090_bot"
     )
     PURGE = get_config(
         "COMMANDI_PURGE",
-        "purge"
+        "purge@manjirosano090_bot"
     )
     YTDL = get_config(
         "COMMANDI_YTDL",
-        "ytdl"
+        "ytdl@manjirosano090_bot"
     )
     STATUS = get_config(
         "COMMANDI_STATUS",
-        "status"
+        "status@manjirosano090_bot"
     )
     CANCEL = get_config(
         "COMMANDI_CANCEL",
-        "cancel"
+        "cancel@manjirosano090_bot"
     )
     EXEC = get_config(
         "COMMANDI_EXEC",
-        "exec"
+        "exec@manjirosano090_bot"
     )
     EVAL = get_config(
         "COMMANDI_EVAL",
-        "eval"
+        "eval@manjirosano090_bot"
     )
     RENAME = get_config(
         "COMMANDI_RENAME",
-        "rename"
+        "rename@manjirosano090_bot"
     )
     UPLOAD = get_config(
         "COMMANDI_UPLOAD",
-        "upload"
+        "upload@manjirosano090_bot"
     )
     HELP = get_config(
         "COMMANDI_HELP",
-        "help"
+        "help@manjirosano090_bot"
     )
     SAVETHUMBNAIL = get_config(
         "COMMANDI_SAVETHUMBNAIL",
-        "savethumbnail"
+        "savethumbnail@manjirosano090_bot"
     )
     CLEARTHUMBNAIL = get_config(
         "COMMANDI_CLEARTHUMBNAIL",
-        "clearthumbnail"
+        "clearthumbnail@manjirosano090_bot"
     )
     GET_RCLONE_CONF_URI = get_config(
         "COMMANDI_GET_RCLONE_CONF_URI",
-        "getrcloneconfuri"
+        "getrcloneconfuri@manjirosano090_bot"
     )
     UPLOAD_LOG_FILE = get_config(
         "COMMANDI_UPLOAD_LOG_FILE",
-        "log"
+        "log@manjirosano090_bot"
     )
