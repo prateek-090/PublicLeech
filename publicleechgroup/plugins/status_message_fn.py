@@ -45,7 +45,7 @@ async def status_message_f(client, message):
     # Show All Downloads
     downloads = aria_i_p.get_downloads()
     #
-    DOWNLOAD_ICON = "📥"
+    DOWNLOAD_ICON = "📩"
     UPLOAD_ICON = "📤"
     #
     msg = ""
@@ -144,10 +144,10 @@ async def exec_message_f(client, message):
     stdout, stderr = await process.communicate()
     e = stderr.decode()
     if not e:
-        e = "😐"
+        e = ":/"
     o = stdout.decode()
     if not o:
-        o = "😐"
+        o = ":/"
     return_code = process.returncode
     OUTPUT = ""
     OUTPUT += "<b>EXEC</b>:\n"
@@ -245,7 +245,7 @@ async def eval_message_f(client, message):
     elif stdout:
         evaluation = stdout.strip()
     else:
-        evaluation = "😐"
+        evaluation = ":/"
 
     final_output = ""
     final_output += f"<b>EVAL</b>: <code>{cmd}</code>"
