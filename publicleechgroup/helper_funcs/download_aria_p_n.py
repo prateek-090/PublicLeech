@@ -99,7 +99,8 @@ def add_magnet(aria_instance, magnetic_link, c_file_name):
             options
         )
     except Exception as e:
-        return False, "<b>FAILED</b> \n" + str(e) + " \nPlease do not send SLOW links. Read /help"
+        return False, "<b>FAILED</b> \n" + str(e) + " \nPlease do not send SLOW links 🥲,I Can't Leech..
+. Read /help"
     else:
         return True, "" + download.gid + ""
 
@@ -117,11 +118,12 @@ def add_torrent(aria_instance, torrent_file_path):
                 position=None
             )
         except Exception as e:
-            return False, "<b>FAILED</b> \n" + str(e) + " \nPlease do not send SLOW links. Read /help"
+            return False, "<b>FAILED</b> \n" + str(e) + " \nPlease do not send SLOW links 🥲,I Can't Leech..
+. Read /help"
         else:
             return True, "" + download.gid + ""
     else:
-        return False, "<b>FAILED</b> \n\nPlease try other sources to get workable link"
+        return False, "<b>FAILED</b> \n\nPlease try other sources to get workable link 🙂"
 
 
 def add_url(aria_instance, text_url, c_file_name):
@@ -138,7 +140,8 @@ def add_url(aria_instance, text_url, c_file_name):
             options
         )
     except Exception as e:
-        return False, "<b>FAILED</b> \n" + str(e) + " \nPlease do not send SLOW links. Read /help"
+        return False, "<b>FAILED</b> \n" + str(e) + " \nPlease do not send SLOW links 🥲,I Can't Leech..
+. Read /help"
     else:
         return True, "" + download.gid + ""
 
@@ -287,7 +290,7 @@ async def call_apropriate_function(
         message_to_send = mention_req_user + message_to_send
         message_to_send = message_to_send + "\n\n" + "#uploads"
     else:
-        message_to_send = "<i>FAILED</i> to upload files. 😞😞"
+        message_to_send = "<i>FAILED</i> to upload files. 🤧💤"
     await sent_message_to_update_tg_p.reply_to_message.reply_text(
         text=message_to_send,
         quote=True,
@@ -339,7 +342,7 @@ async def check_progress_for_dl(aria2, gid, event, previous_message):
                 aria2, gid, event, previous_message
             )
         else:
-            await event.edit(f"File Downloaded Successfully: <code>{file.name}</code>")
+            await event.edit(f"File Downloaded Successfully🍷🍷: <code>{file.name}</code>")
             return True
     except aria2p.client.ClientException:
         pass
@@ -351,7 +354,7 @@ async def check_progress_for_dl(aria2, gid, event, previous_message):
         file.remove(force=True)
         await event.edit(
             "Download Auto Canceled :\n\n"
-            "Your Torrent/Link {} is Dead.".format(
+            "Your Torrent/Link {} is Dead ☠️.".format(
                 file.name
             )
         )
