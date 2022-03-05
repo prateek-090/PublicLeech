@@ -25,17 +25,17 @@ class Loilacaztion:
 
     CLEARED_THUMBNAIL = get_config(
         "STRINGS_CLEARED_THUMBNAIL",
-        "✅ Custom thumbnail cleared successfully."
-    )
+        "✅♻️Custom thumbnail cleared successfully♻️✅"
+    
     HELP_SAVE_THUMBNAIL = get_config(
         "STRINGS_HELP_SAVE_THUMBNAIL",
-        "Reply to a photo to save custom thumbnail"
+        "Reply to a photo to save custom thumbnail😄"
     )
     SAVED_THUMBNAIL = get_config(
         "STRINGS_SAVED_THUMBNAIL",
         (
             "Custom video / file thumbnail saved. "
-            "This image will be used in the upload, till /clearthumbnail."
+            "This image will be used in the upload, till /clearthumbnail 👻"
         )
     )
 
@@ -50,11 +50,11 @@ class Loilacaztion:
 
     NO_TOR_STATUS = get_config(
         "STRINGS_NO_TOR_STATUS",
-        "🤷‍♂️ No Active, Queued or Paused TORRENTs"
+        "O_o :/ No Active, Queued or Paused TORRENTs"
     )
     TOR_CANCELLED = get_config(
         "STRINGS_TOR_CANCELLED",
-        "Leech Cancelled"
+        "☹️ Leech Cancelled ☹️"
     )
     TOR_CANCEL_FAILED = get_config(
         "STRINGS_TOR_CANCEL_FAILED",
@@ -62,5 +62,5 @@ class Loilacaztion:
     )
     TGD_YTLD_STOOPID_DRUSER = get_config(
         "TGD_YTLD_STOOPID_DRUSER",
-        "😡😡 i can't process theis expired request 😏"
+        " 👣🕳️ i can't process theis expired request 👣🕳️"
     )
