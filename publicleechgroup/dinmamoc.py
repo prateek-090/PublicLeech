@@ -20,57 +20,57 @@ from .get_cfg import get_config
 class Commandi:
     LEECH = get_config(
         "COMMANDI_LEECH",
-        "leech"
+        "leech@Blueelokebot"
     )
     PURGE = get_config(
         "COMMANDI_PURGE",
-        "purge"
+        "purge@Blueelokebot"
     )
     YTDL = get_config(
         "COMMANDI_YTDL",
-        "ytdl"
+        "ytdl@Blueelokebot"
     )
     STATUS = get_config(
         "COMMANDI_STATUS",
-        "status"
+        "status@Blueelokebot"
     )
     CANCEL = get_config(
         "COMMANDI_CANCEL",
-        "cancel"
+        "cancel@Blueelokebot"
     )
     EXEC = get_config(
         "COMMANDI_EXEC",
-        "exec"
+        "exec@Blueelokebot"
     )
     EVAL = get_config(
         "COMMANDI_EVAL",
-        "eval"
+        "eval@Blueelokebot"
     )
     RENAME = get_config(
         "COMMANDI_RENAME",
-        "rename"
+        "rename@Blueelokebot"
     )
     UPLOAD = get_config(
         "COMMANDI_UPLOAD",
-        "upload"
+        "upload@Blueelokebot"
     )
     HELP = get_config(
         "COMMANDI_HELP",
-        "help"
+        "help@Blueelokebot"
     )
     SAVETHUMBNAIL = get_config(
         "COMMANDI_SAVETHUMBNAIL",
-        "savethumbnail"
+        "savethumbnail@Blueelokebot"
     )
     CLEARTHUMBNAIL = get_config(
         "COMMANDI_CLEARTHUMBNAIL",
-        "clearthumbnail"
+        "clearthumbnail@Blueelokebot"
     )
     GET_RCLONE_CONF_URI = get_config(
         "COMMANDI_GET_RCLONE_CONF_URI",
-        "getrcloneconfuri"
+        "getrcloneconfuri@Blueelokebot"
     )
     UPLOAD_LOG_FILE = get_config(
         "COMMANDI_UPLOAD_LOG_FILE",
-        "log"
+        "log@Blueelokebot"
     )
