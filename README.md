@@ -1,6 +1,6 @@
 # Torrent / YouTube Leecher 🔥🤖
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/prateek-090/PublicLeech)
+[![Deploy](https://heroku.com/deploy?template=https://github.com/prateek-090/PublicLeech)
 
 A Torrent, youtube-dl Leecher, and Uploader!
 
